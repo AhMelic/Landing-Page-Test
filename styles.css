@@ -21,7 +21,8 @@ h1{
 
 
 .top-of-website{
-    background-color:#1f2937;  
+    background-color:#1f2937; 
+     
 }
 .second-half-website{
     background-color:white;
@@ -57,6 +58,8 @@ h2{
     position:relative;
     top:-180px;
     left:-240px;
+    min-width: 1280px;
+     
 }
 ul{
    list-style-type: none;
@@ -74,8 +77,40 @@ ul{
     
 .logo{
     color:white;
-    font-size:16px;
+    font-size:30px;
     padding-left:10px;
     font-weight:bold;
     padding-top:10px;
+}
+.some-text {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 40px;
+  }
+  
+  .all {
+    background: #fff;
+    margin-top: 150px;
+  }
+  
+  .pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 55px;
+  }
+  
+  
+  .attack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 50px;
+  }
 }
